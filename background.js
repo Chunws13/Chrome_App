@@ -8,5 +8,4 @@ background_img.src = `${chose_img}`;
 background_img.classList.add("backimg");
 
 document.body.appendChild(background_img);
-console.log(background_img);
 // document.body.style.backgroundImage = `url(${chose_img})`;
