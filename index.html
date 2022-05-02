@@ -10,32 +10,33 @@
 </head>
 
 <body>
-    <form id="LogIn" class="hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?" />
-        <button> Log In </button>
-    </form>
+    <div id="wrapper">
+        <form id="LogIn" class="hidden">
+            <input required maxlength="15" type="text" placeholder="What is your name?" />
+            <button> Log In </button>
+        </form>
 
-    <h1 id="clock"></h1>
-    <h1 id="greeting" class="hidden"></h1>
+        <h1 id="clock"></h1>
+        <h1 id="greeting" class="hidden"></h1>
 
-    <form id="todo_form">
-        <input type="text" required="" placeholder="Wirte  a To do">
+        <form id="todo_form">
+            <input type="text" required="" placeholder="Wirte  a To do">
 
-    </form>
+        </form>
 
-    <ul id="todo_list">
-    </ul>
+        <ul id="todo_list">
+        </ul>
 
-    <div id="weather">
-        <span></span>
-        <span></span>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="play_list">
+            <span></span>
+            <span></span>
+        </div>
     </div>
-
-    <div id="play_list">
-        <span></span>
-        <span></span>
-    </div>
-
     <script src="login.js"></script>
     <script src="clock.js"></script>
     <script src="music_list.js"></script>
