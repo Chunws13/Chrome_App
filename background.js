@@ -1,5 +1,5 @@
 const images = [
-    "baduck.jpg"
+    "baduck.png"
 ];
 
 const chose_img = images[Math.floor(Math.random() * images.length)];
